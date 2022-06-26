@@ -13,15 +13,15 @@ To write a program to implement the simple linear regression model for predictin
 3. Import linear regression from sklearn.
 4. Assign the points for representing in the graph
 5. Predict the regression for marks by using the representation of the graph.
-6. Compare the graphs and hence we obtained the linear regression for the given datas
+6. Compare the graphs and hence we obtained the linear regression for the given datas.
+
 
 ## Program:
 ```
 /*
 Program to implement the simple linear regression model for predicting the marks scored.
-Developed by: Rakshith
-RegisterNumber:  212220040129
-
+Developed by: Santhosh M
+RegisterNumber:  212220040146
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -50,14 +50,12 @@ plt.plot(X_train,regressor.predict(X_train),color="brown")
 plt.xlabel("Hours")
 plt.ylabel("Scores")
 plt.show()
-
 */
 ```
 
 ## Output:
 ![simple linear regression model for predicting the marks scored](hour.png)
 ![simple linear regression model for predicting the marks scored](minute.png)
-
 
 ## Result:
 Thus the program to implement the simple linear regression model for predicting the marks scored is written and verified using python programming.
